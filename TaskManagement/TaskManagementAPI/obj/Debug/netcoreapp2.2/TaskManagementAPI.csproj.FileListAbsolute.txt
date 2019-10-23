@@ -1,0 +1,14 @@
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\TaskManagementAPI.deps.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\TaskManagementAPI.runtimeconfig.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\TaskManagementAPI.runtimeconfig.dev.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\TaskManagementAPI.dll
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\TaskManagementAPI.pdb
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.csprojAssemblyReference.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.csproj.CoreCompileInputs.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.RazorAssemblyInfo.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.RazorAssemblyInfo.cs
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.AssemblyInfoInputs.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.AssemblyInfo.cs
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.dll
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\obj\Debug\netcoreapp2.2\TaskManagementAPI.pdb
