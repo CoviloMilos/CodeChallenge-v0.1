@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TaskManagementAPI.Models
 {
-    [Table("Task")]
+    [Table("Tasks")]
     public class Task
     {
         [Key]

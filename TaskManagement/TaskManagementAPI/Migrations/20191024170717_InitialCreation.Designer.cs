@@ -10,8 +10,8 @@ using TaskManagementAPI.Repositories;
 namespace TaskManagementAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20191023184712_InitialCreateOfModels")]
-    partial class InitialCreateOfModels
+    [Migration("20191024170717_InitialCreation")]
+    partial class InitialCreation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,7 +46,7 @@ namespace TaskManagementAPI.Migrations
 
                     b.HasIndex("TaskGuid");
 
-                    b.ToTable("Case");
+                    b.ToTable("Cases");
                 });
 
             modelBuilder.Entity("TaskManagementAPI.Models.Task", b =>
@@ -82,7 +82,7 @@ namespace TaskManagementAPI.Migrations
 
                     b.HasKey("TaskId");
 
-                    b.ToTable("Task");
+                    b.ToTable("Tasks");
                 });
 
             modelBuilder.Entity("TaskManagementAPI.Models.Case", b =>

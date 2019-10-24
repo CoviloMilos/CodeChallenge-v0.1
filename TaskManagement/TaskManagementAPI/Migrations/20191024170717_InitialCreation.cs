@@ -4,12 +4,12 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace TaskManagementAPI.Migrations
 {
-    public partial class InitialCreateOfModels : Migration
+    public partial class InitialCreation : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Task",
+                name: "Tasks",
                 columns: table => new
                 {
                     TaskId = table.Column<int>(nullable: false)
@@ -27,12 +27,12 @@ namespace TaskManagementAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Task", x => x.TaskId);
-                    table.UniqueConstraint("AK_Task_TaskGuid", x => x.TaskGuid);
+                    table.PrimaryKey("PK_Tasks", x => x.TaskId);
+                    table.UniqueConstraint("AK_Tasks_TaskGuid", x => x.TaskGuid);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Case",
+                name: "Cases",
                 columns: table => new
                 {
                     CaseId = table.Column<int>(nullable: false)
@@ -46,28 +46,28 @@ namespace TaskManagementAPI.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Case", x => x.CaseId);
+                    table.PrimaryKey("PK_Cases", x => x.CaseId);
                     table.ForeignKey(
-                        name: "FK_Case_Task_TaskGuid",
+                        name: "FK_Cases_Tasks_TaskGuid",
                         column: x => x.TaskGuid,
-                        principalTable: "Task",
+                        principalTable: "Tasks",
                         principalColumn: "TaskGuid",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Case_TaskGuid",
-                table: "Case",
+                name: "IX_Cases_TaskGuid",
+                table: "Cases",
                 column: "TaskGuid");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Case");
+                name: "Cases");
 
             migrationBuilder.DropTable(
-                name: "Task");
+                name: "Tasks");
         }
     }
 }

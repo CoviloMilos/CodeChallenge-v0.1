@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TaskManagementAPI.Models
 {
-    [Table("Case")]
+    [Table("Cases")]
     public class Case
     {
         [Key]

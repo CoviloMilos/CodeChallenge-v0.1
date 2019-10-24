@@ -44,7 +44,7 @@ namespace TaskManagementAPI.Migrations
 
                     b.HasIndex("TaskGuid");
 
-                    b.ToTable("Case");
+                    b.ToTable("Cases");
                 });
 
             modelBuilder.Entity("TaskManagementAPI.Models.Task", b =>
@@ -80,7 +80,7 @@ namespace TaskManagementAPI.Migrations
 
                     b.HasKey("TaskId");
 
-                    b.ToTable("Task");
+                    b.ToTable("Tasks");
                 });
 
             modelBuilder.Entity("TaskManagementAPI.Models.Case", b =>

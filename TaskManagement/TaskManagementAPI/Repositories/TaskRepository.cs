@@ -28,7 +28,14 @@ namespace TaskManagementAPI.Repositories
 
         public void Delete<T>(T entity) where T : class
         {
-            throw new System.NotImplementedException();
+            try
+            {
+                _context.Remove(entity);
+            }
+            catch (System.Exception)
+            {
+                throw new Exception($"Task delete failed.");  
+            }
         }
 
         public async System.Threading.Tasks.Task<Case> GetSpecificCase(string taskGuid, int caseNum)
