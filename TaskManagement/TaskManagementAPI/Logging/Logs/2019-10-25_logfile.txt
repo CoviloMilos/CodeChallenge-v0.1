@@ -1,0 +1,148 @@
+2019-10-25 18:31:57.5398 INFO Query parameter prod isn't specified.
+2019-10-25 18:32:15.4750 INFO Fetching all the Tasks from the database.
+2019-10-25 18:32:17.9955 INFO Returning 8 tasks.
+2019-10-25 18:32:21.8654 INFO Fetching all the Tasks from the database.
+2019-10-25 18:32:21.9051 INFO Returning 1 tasks.
+2019-10-25 18:32:25.4336 INFO Failed in parsing query parameter prod = ffaa.
+2019-10-25 18:38:52.6366 INFO Failed in parsing query parameter prod = ffaa.
+2019-10-25 18:39:00.8821 INFO Fetching Task with id=1 from the database.
+2019-10-25 18:39:02.9184 INFO Task by id 1 doesn't exists
+2019-10-25 18:39:04.8600 INFO Fetching Task with id=2 from the database.
+2019-10-25 18:39:05.2472 INFO Returning True or False task.
+2019-10-25 18:39:40.8263 INFO Creating task...
+2019-10-25 18:39:42.3152 INFO Task created successfully!
+2019-10-25 18:39:47.6199 INFO Creating task...
+2019-10-25 18:39:47.6838 INFO Task created successfully!
+2019-10-25 18:39:49.0274 INFO Creating task...
+2019-10-25 18:39:49.0951 INFO Task created successfully!
+2019-10-25 18:39:57.7153 INFO Fetching Task with id=12 from the database.
+2019-10-25 18:41:04.9716 INFO Fetching Task with id=4 from the database.
+2019-10-25 18:41:05.0286 ERROR Updating task 4 failed on save
+2019-10-25 18:41:13.4760 INFO Fetching Task with id=4 from the database.
+2019-10-25 18:41:13.5091 INFO Task name updated successfully
+2019-10-25 18:44:15.2127 INFO [REQUEST INFO] Time: 10/25/2019 6:44:15 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/tasks/7
+2019-10-25 18:44:15.8485 INFO Fetching Task with id=7 from the database.
+2019-10-25 18:44:17.6971 INFO Task by id 7 doesn't exists
+2019-10-25 18:44:17.7190 INFO [RESPONSE INFO] Time: 10/25/2019 6:44:17 PM Status code: 204 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 18:44:25.5777 INFO [REQUEST INFO] Time: 10/25/2019 6:44:25 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/tasks?prod=true
+2019-10-25 18:44:25.5998 INFO Fetching all the Tasks from the database.
+2019-10-25 18:44:25.8692 INFO Returning 10 tasks.
+2019-10-25 18:44:26.1149 INFO [RESPONSE INFO] Time: 10/25/2019 6:44:26 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 18:44:31.2893 INFO [REQUEST INFO] Time: 10/25/2019 6:44:31 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/tasks?prod=true
+2019-10-25 18:44:31.3065 INFO Fetching all the Tasks from the database.
+2019-10-25 18:44:31.3244 INFO Returning 10 tasks.
+2019-10-25 18:44:31.3244 INFO [RESPONSE INFO] Time: 10/25/2019 6:44:31 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 18:44:32.2723 INFO [REQUEST INFO] Time: 10/25/2019 6:44:32 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/tasks?prod=true
+2019-10-25 18:44:32.2723 INFO Fetching all the Tasks from the database.
+2019-10-25 18:44:32.2945 INFO Returning 10 tasks.
+2019-10-25 18:44:32.2945 INFO [RESPONSE INFO] Time: 10/25/2019 6:44:32 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:13:39.4163 INFO [REQUEST INFO] Time: 10/25/2019 7:13:39 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/
+2019-10-25 19:13:53.3048 INFO [RESPONSE INFO] Time: 10/25/2019 7:13:53 PM Status code: 404 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:13:58.7410 INFO [REQUEST INFO] Time: 10/25/2019 7:13:58 PM Method: PUT Scheme: https CotentType: application/json Target: localhost:5001/api/tasks/4
+2019-10-25 19:14:34.2512 INFO Fetching Task with id=4 from the database.
+2019-10-25 19:14:57.5104 INFO Task name updated successfully
+2019-10-25 19:14:59.6335 INFO [RESPONSE INFO] Time: 10/25/2019 7:14:59 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:15:04.9191 INFO [REQUEST INFO] Time: 10/25/2019 7:15:04 PM Method: PUT Scheme: https CotentType: application/json Target: localhost:5001/api/tasks/4
+2019-10-25 19:15:10.1613 INFO Fetching Task with id=4 from the database.
+2019-10-25 19:15:10.3295 ERROR Updating task 4 failed on save
+2019-10-25 19:15:11.5608 ERROR Something went wrong: System.Exception: Updating task 4 failed on save
+   at TaskManagementAPI.Controllers.TasksController.UpdateTask(Int32 taskId, DtoUpdateTask dtoUpdateTask) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Controllers\TasksController.cs:line 164
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TaskManagementAPI.Helpers.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Helpers\ExceptionMiddleware.cs:line 24
+2019-10-25 19:15:11.5817 INFO [RESPONSE INFO] Time: 10/25/2019 7:15:11 PM Status code: 500 ContentType: application/json HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:15:21.8200 INFO [REQUEST INFO] Time: 10/25/2019 7:15:21 PM Method: PUT Scheme: https CotentType: application/json Target: localhost:5001/api/tasks/4
+2019-10-25 19:15:26.0415 INFO Fetching Task with id=4 from the database.
+2019-10-25 19:15:36.7914 ERROR Updating task 4 failed on save
+2019-10-25 19:15:39.4638 ERROR Something went wrong: System.Exception: Updating task 4 failed on save
+   at TaskManagementAPI.Controllers.TasksController.UpdateTask(Int32 taskId, DtoUpdateTask dtoUpdateTask) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Controllers\TasksController.cs:line 164
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TaskManagementAPI.Helpers.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Helpers\ExceptionMiddleware.cs:line 24
+2019-10-25 19:15:39.4638 INFO [RESPONSE INFO] Time: 10/25/2019 7:15:39 PM Status code: 500 ContentType: application/json HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:15:56.6776 INFO [REQUEST INFO] Time: 10/25/2019 7:15:56 PM Method: PUT Scheme: https CotentType: application/json Target: localhost:5001/api/tasks/4
+2019-10-25 19:16:04.3974 INFO Fetching Task with id=4 from the database.
+2019-10-25 19:16:05.5396 ERROR Updating task 4 failed on save
+2019-10-25 19:16:19.8776 ERROR Something went wrong: System.Exception: Updating task 4 failed on save
+   at TaskManagementAPI.Controllers.TasksController.UpdateTask(Int32 taskId, DtoUpdateTask dtoUpdateTask) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Controllers\TasksController.cs:line 164
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TaskManagementAPI.Helpers.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in c:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Helpers\ExceptionMiddleware.cs:line 24
+2019-10-25 19:16:31.6231 INFO [RESPONSE INFO] Time: 10/25/2019 7:16:31 PM Status code: 500 ContentType: application/json HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:19:57.5703 INFO [REQUEST INFO] Time: 10/25/2019 7:19:57 PM Method: PUT Scheme: https CotentType: application/json Target: localhost:5001/api/tasks/4
+2019-10-25 19:19:58.9212 INFO Fetching Task with id=4 from the database.
+2019-10-25 19:20:01.2655 ERROR Updating task 4 failed on save
+2019-10-25 19:20:01.3601 ERROR Something went wrong:
+Exception source: TaskManagementAPI
+ProblemSystem.Exception: Updating task 4 failed on save
+   at TaskManagementAPI.Controllers.TasksController.UpdateTask(Int32 taskId, DtoUpdateTask dtoUpdateTask) in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Controllers\TasksController.cs:line 164
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TaskManagementAPI.Helpers.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\Helpers\ExceptionMiddleware.cs:line 24
+2019-10-25 19:20:01.4201 INFO [RESPONSE INFO] Time: 10/25/2019 7:20:01 PM Status code: 500 ContentType: application/json HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:24:50.6036 INFO [REQUEST INFO] Time: 10/25/2019 7:24:50 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/v1/swagger.json
+2019-10-25 19:24:50.9380 INFO [RESPONSE INFO] Time: 10/25/2019 7:24:50 PM Status code: 200 ContentType: application/json;charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:01.4200 INFO [REQUEST INFO] Time: 10/25/2019 7:25:01 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/v1
+2019-10-25 19:25:01.4891 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:01 PM Status code: 404 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:05.1854 INFO [REQUEST INFO] Time: 10/25/2019 7:25:05 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger
+2019-10-25 19:25:05.1854 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:05 PM Status code: 301 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:05.2076 INFO [REQUEST INFO] Time: 10/25/2019 7:25:05 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/index.html
+2019-10-25 19:25:05.3593 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:05 PM Status code: 200 ContentType: text/html;charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:05.4457 INFO [REQUEST INFO] Time: 10/25/2019 7:25:05 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/swagger-ui.css
+2019-10-25 19:25:05.4634 INFO [REQUEST INFO] Time: 10/25/2019 7:25:05 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/swagger-ui-bundle.js
+2019-10-25 19:25:05.4634 INFO [REQUEST INFO] Time: 10/25/2019 7:25:05 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/swagger-ui-standalone-preset.js
+2019-10-25 19:25:05.4767 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:05 PM Status code: 200 ContentType: text/css HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:05.4931 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:05 PM Status code: 200 ContentType: application/javascript HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:05.5083 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:05 PM Status code: 200 ContentType: application/javascript HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:06.2195 INFO [REQUEST INFO] Time: 10/25/2019 7:25:06 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/v1/swagger.json
+2019-10-25 19:25:06.2299 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:06 PM Status code: 200 ContentType: application/json;charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-25 19:25:06.3074 INFO [REQUEST INFO] Time: 10/25/2019 7:25:06 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/swagger/favicon-32x32.png
+2019-10-25 19:25:06.3232 INFO [RESPONSE INFO] Time: 10/25/2019 7:25:06 PM Status code: 200 ContentType: image/png HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext

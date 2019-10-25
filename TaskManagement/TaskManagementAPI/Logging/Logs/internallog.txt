@@ -1,0 +1,1103 @@
+2019-10-25 18:31:48.6776 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 18:31:48.8350 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:31:48.8350 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:31:48.8509 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:31:48.8509 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:31:48.8509 Debug Auto loading done
+2019-10-25 18:31:48.8509 Info Message Template Auto Format enabled
+2019-10-25 18:31:48.9036 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9036 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:31:48.9290 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:31:48.9605 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:31:48.9605 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9605 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:48.9605 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9605 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:31:48.9605 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:31:48.9605 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:31:48.9605 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:31:48.9764 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:48.9764 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:48.9764 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9764 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 18:31:48.9764 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9764 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:31:48.9924 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 18:31:48.9924 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:31:48.9924 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9924 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:31:48.9924 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:31:48.9924 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:48.9924 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:31:48.9924 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:31:49.0072 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:31:49.0072 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:49.0072 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:49.0072 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:49.0072 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:31:49.0072 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:31:49.0072 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:31:49.0072 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:31:49.0072 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.0072 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:49.0072 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:31:49.0072 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:31:49.0252 Info Adding target File Target[logfile]
+2019-10-25 18:31:49.0252 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 18:31:49.0252 Trace ParseRulesElement
+2019-10-25 18:31:49.0523 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 18:31:49.0602 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 18:31:49.0602 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 18:31:49.0602 Debug --- NLog configuration dump ---
+2019-10-25 18:31:49.0699 Debug Targets:
+2019-10-25 18:31:49.0699 Debug File Target[logfile]
+2019-10-25 18:31:49.0699 Debug Rules:
+2019-10-25 18:31:49.0699 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 18:31:49.0699 Debug --- End of NLog configuration dump ---
+2019-10-25 18:31:49.0699 Trace FindReachableObject<System.Object>:
+2019-10-25 18:31:49.0699 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 18:31:49.0859 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 18:31:49.0859 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:31:49.0859 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:31:49.0859 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:31:49.0859 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.0859 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.0859 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:31:49.0859 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.1025 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:31:49.1025 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:31:49.1025 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.1025 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:31:49.1025 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.1025 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:31:49.1025 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 18:31:49.1166 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:31:49.1166 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:31:49.1166 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.1166 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:49.1166 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.1166 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:31:49.1166 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:31:49.1166 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:31:49.1328 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 18:31:49.1328 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 18:31:49.1328 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 18:31:49.1328 Info Found 14 configuration items
+2019-10-25 18:31:49.1328 Trace Initializing Layout Renderer: ${message}
+2019-10-25 18:31:49.1487 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:31:49.1487 Trace Initializing Layout Renderer: ${level}
+2019-10-25 18:31:49.1487 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:31:49.1487 Trace FindReachableObject<System.Object>:
+2019-10-25 18:31:49.1636 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:31:49.1636 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.1636 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:49.1636 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 18:31:49.1636 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:31:49.1636 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 18:31:49.1812 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:31:49.1812 Trace FindReachableObject<System.Object>:
+2019-10-25 18:31:49.1812 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:31:49.1812 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.1812 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:31:49.1969 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.1969 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:31:49.1969 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 18:31:49.1969 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:31:49.2108 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:31:49.2108 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.2108 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:31:49.2253 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.2253 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:31:49.2413 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:31:49.2413 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 18:31:49.2413 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:31:49.2413 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:31:49.2413 Trace FindReachableObject<System.Object>:
+2019-10-25 18:31:49.2582 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:31:49.2582 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:31:49.2582 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.2582 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:31:49.2582 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:31:49.2728 Trace Initializing File Target[logfile]
+2019-10-25 18:31:49.2728 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 18:31:49.2728 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:31:49.2728 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:31:49.2936 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:31:49.2936 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:31:49.2936 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:31:49.2936 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:31:49.3079 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:31:49.3079 Trace File Target[logfile] has 2 layouts
+2019-10-25 18:31:49.3208 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 18:31:49.3558 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 18:31:57.5029 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:31:57.5029 Debug Trace =>
+2019-10-25 18:31:57.5140 Debug Debug => logfile
+2019-10-25 18:31:57.5140 Debug Info => logfile
+2019-10-25 18:31:57.5304 Debug Warn => logfile
+2019-10-25 18:31:57.5304 Debug Error => logfile
+2019-10-25 18:31:57.5304 Debug Fatal => logfile
+2019-10-25 18:31:57.6142 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 18:31:57.6345 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:31:57.6345 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:32:15.4750 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:32:17.9955 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:32:21.8654 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:32:21.9051 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:32:25.4336 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:38:28.0162 Info Shutting down logging...
+2019-10-25 18:38:28.0336 Debug Stopping file watching for path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config'
+2019-10-25 18:38:28.0512 Trace Flushing all targets...
+2019-10-25 18:38:28.0634 Trace ForEachItemInParallel() 1 items
+2019-10-25 18:38:28.0789 Trace FileTarget(Name=logfile): FlushAsync
+2019-10-25 18:38:28.0789 Trace Continuation invoked: 
+2019-10-25 18:38:28.0789 Trace Parallel task completed. 0 items remaining
+2019-10-25 18:38:28.0912 Trace FileTarget(Name=logfile): FlushAsync Done
+2019-10-25 18:38:28.0912 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:38:28.0912 Debug Trace =>
+2019-10-25 18:38:28.0912 Debug Debug =>
+2019-10-25 18:38:28.0912 Debug Info =>
+2019-10-25 18:38:28.0912 Debug Warn =>
+2019-10-25 18:38:28.1012 Debug Error =>
+2019-10-25 18:38:28.1012 Debug Fatal =>
+2019-10-25 18:38:28.1012 Debug Closing logging configuration...
+2019-10-25 18:38:28.1012 Trace Closing File Target[logfile]
+2019-10-25 18:38:28.1012 Debug Closing target 'File Target[logfile]'.
+2019-10-25 18:38:28.1217 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt, isArchiving: False'
+2019-10-25 18:38:28.1217 Debug FileAppender Closing Invalidate - C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:38:28.1402 Debug Closed target 'File Target[logfile]'.
+2019-10-25 18:38:28.1402 Trace Closing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:38:28.1402 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:38:28.1402 Trace Closing Layout Renderer: ${shortdate}
+2019-10-25 18:38:28.1402 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:38:28.1478 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${longdate}
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${uppercase}
+2019-10-25 18:38:28.1478 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${level}
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:38:28.1478 Trace Closing Layout Renderer: ${message}
+2019-10-25 18:38:28.1478 Debug Finished closing logging configuration.
+2019-10-25 18:38:28.1478 Info Logger has been shut down.
+2019-10-25 18:38:37.5877 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 18:38:37.6428 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:38:37.6568 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:38:37.6568 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:38:37.6632 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:38:37.6632 Debug Auto loading done
+2019-10-25 18:38:37.6632 Info Message Template Auto Format enabled
+2019-10-25 18:38:37.6967 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.6967 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:38:37.7152 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:38:37.7333 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:38:37.7333 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7333 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.7333 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7333 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:38:37.7333 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:38:37.7445 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:38:37.7445 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:38:37.7445 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.7445 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.7445 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7445 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 18:38:37.7445 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7445 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:38:37.7635 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 18:38:37.7635 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:38:37.7635 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7635 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:38:37.7635 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:38:37.7726 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7726 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:38:37.7726 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:38:37.7726 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:38:37.7726 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7726 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.7726 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7726 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:38:37.7726 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:38:37.7726 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:38:37.7726 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:38:37.7726 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.7888 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.7888 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:38:37.7888 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:38:37.7888 Info Adding target File Target[logfile]
+2019-10-25 18:38:37.7888 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 18:38:37.7888 Trace ParseRulesElement
+2019-10-25 18:38:37.8127 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 18:38:37.8218 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 18:38:37.8218 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 18:38:37.8218 Debug --- NLog configuration dump ---
+2019-10-25 18:38:37.8218 Debug Targets:
+2019-10-25 18:38:37.8218 Debug File Target[logfile]
+2019-10-25 18:38:37.8218 Debug Rules:
+2019-10-25 18:38:37.8381 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 18:38:37.8381 Debug --- End of NLog configuration dump ---
+2019-10-25 18:38:37.8381 Trace FindReachableObject<System.Object>:
+2019-10-25 18:38:37.8381 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 18:38:37.8381 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 18:38:37.8381 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:38:37.8502 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:38:37.8502 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:38:37.8502 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8502 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.8502 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:38:37.8502 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.8502 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:38:37.8502 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:38:37.8502 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8502 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:38:37.8502 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.8502 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:38:37.8502 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 18:38:37.8502 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:38:37.8502 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:38:37.8502 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8660 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.8660 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.8660 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:38:37.8660 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:38:37.8660 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:38:37.8660 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 18:38:37.8660 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 18:38:37.8660 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8831 Info Found 14 configuration items
+2019-10-25 18:38:37.8831 Trace Initializing Layout Renderer: ${message}
+2019-10-25 18:38:37.8831 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:38:37.8831 Trace Initializing Layout Renderer: ${level}
+2019-10-25 18:38:37.8831 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:38:37.8831 Trace FindReachableObject<System.Object>:
+2019-10-25 18:38:37.8831 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:38:37.8831 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8831 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.8975 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 18:38:37.8975 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:38:37.8975 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 18:38:37.8975 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:38:37.8975 Trace FindReachableObject<System.Object>:
+2019-10-25 18:38:37.8975 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:38:37.8975 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8975 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:38:37.8975 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.8975 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:38:37.8975 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 18:38:37.8975 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:38:37.8975 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:38:37.8975 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.8975 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:38:37.8975 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.9131 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:38:37.9131 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:38:37.9131 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 18:38:37.9131 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:38:37.9131 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:38:37.9131 Trace FindReachableObject<System.Object>:
+2019-10-25 18:38:37.9131 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:38:37.9131 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:38:37.9131 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.9131 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:38:37.9131 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:38:37.9131 Trace Initializing File Target[logfile]
+2019-10-25 18:38:37.9131 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 18:38:37.9293 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:38:37.9293 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:38:37.9293 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:38:37.9293 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:38:37.9293 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:38:37.9293 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:38:37.9293 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:38:37.9293 Trace File Target[logfile] has 2 layouts
+2019-10-25 18:38:37.9293 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 18:38:37.9554 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 18:38:52.5802 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:38:52.5802 Debug Trace =>
+2019-10-25 18:38:52.5884 Debug Debug => logfile
+2019-10-25 18:38:52.5884 Debug Info => logfile
+2019-10-25 18:38:52.6012 Debug Warn => logfile
+2019-10-25 18:38:52.6012 Debug Error => logfile
+2019-10-25 18:38:52.6012 Debug Fatal => logfile
+2019-10-25 18:38:52.6845 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 18:38:52.7063 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:38:52.7145 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:00.8821 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:02.9184 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:04.8600 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:05.2472 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:40.8263 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:42.3152 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:47.6199 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:47.6838 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:49.0274 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:49.0951 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:39:57.7153 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:41:04.9716 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:41:05.0286 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:41:13.4760 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:41:13.5091 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:42:56.8206 Info Shutting down logging...
+2019-10-25 18:42:56.8206 Debug Stopping file watching for path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config'
+2019-10-25 18:42:56.8429 Trace Flushing all targets...
+2019-10-25 18:42:56.8429 Trace ForEachItemInParallel() 1 items
+2019-10-25 18:42:56.8568 Trace FileTarget(Name=logfile): FlushAsync
+2019-10-25 18:42:56.8568 Trace Continuation invoked: 
+2019-10-25 18:42:56.8568 Trace Parallel task completed. 0 items remaining
+2019-10-25 18:42:56.8568 Trace FileTarget(Name=logfile): FlushAsync Done
+2019-10-25 18:42:56.8568 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:42:56.8666 Debug Trace =>
+2019-10-25 18:42:56.8666 Debug Debug =>
+2019-10-25 18:42:56.8666 Debug Info =>
+2019-10-25 18:42:56.8666 Debug Warn =>
+2019-10-25 18:42:56.8666 Debug Error =>
+2019-10-25 18:42:56.8666 Debug Fatal =>
+2019-10-25 18:42:56.8666 Debug Closing logging configuration...
+2019-10-25 18:42:56.8666 Trace Closing File Target[logfile]
+2019-10-25 18:42:56.8666 Debug Closing target 'File Target[logfile]'.
+2019-10-25 18:42:56.8852 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt, isArchiving: False'
+2019-10-25 18:42:56.8852 Debug FileAppender Closing Invalidate - C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:42:56.9051 Debug Closed target 'File Target[logfile]'.
+2019-10-25 18:42:56.9051 Trace Closing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:42:56.9051 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:42:56.9051 Trace Closing Layout Renderer: ${shortdate}
+2019-10-25 18:42:56.9051 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:42:56.9141 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${longdate}
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${uppercase}
+2019-10-25 18:42:56.9141 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${level}
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:42:56.9141 Trace Closing Layout Renderer: ${message}
+2019-10-25 18:42:56.9141 Debug Finished closing logging configuration.
+2019-10-25 18:42:56.9141 Info Logger has been shut down.
+2019-10-25 18:43:55.0959 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 18:43:55.1572 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:43:55.1647 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 18:43:55.1647 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:43:55.1647 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 18:43:55.1647 Debug Auto loading done
+2019-10-25 18:43:55.1647 Info Message Template Auto Format enabled
+2019-10-25 18:43:55.1914 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.1963 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:43:55.1963 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:43:55.2127 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:43:55.2127 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2127 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.2127 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2127 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:43:55.2127 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:43:55.2127 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:43:55.2127 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:43:55.2127 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.2127 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.2258 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2258 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 18:43:55.2258 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2258 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:43:55.2258 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 18:43:55.2258 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:43:55.2258 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2258 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:43:55.2428 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:43:55.2428 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2428 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:43:55.2428 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 18:43:55.2428 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 18:43:55.2428 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2428 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.2428 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2428 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:43:55.2428 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 18:43:55.2428 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:43:55.2428 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:43:55.2428 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.2570 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.2570 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 18:43:55.2570 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:43:55.2570 Info Adding target File Target[logfile]
+2019-10-25 18:43:55.2570 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 18:43:55.2570 Trace ParseRulesElement
+2019-10-25 18:43:55.2784 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 18:43:55.2784 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 18:43:55.2784 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 18:43:55.2907 Debug --- NLog configuration dump ---
+2019-10-25 18:43:55.2907 Debug Targets:
+2019-10-25 18:43:55.2907 Debug File Target[logfile]
+2019-10-25 18:43:55.2907 Debug Rules:
+2019-10-25 18:43:55.2907 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 18:43:55.2907 Debug --- End of NLog configuration dump ---
+2019-10-25 18:43:55.2907 Trace FindReachableObject<System.Object>:
+2019-10-25 18:43:55.2907 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 18:43:55.3034 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 18:43:55.3034 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:43:55.3034 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:43:55.3034 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:43:55.3034 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3034 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3034 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:43:55.3034 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3034 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:43:55.3034 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:43:55.3034 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3034 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:43:55.3034 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3034 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:43:55.3034 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 18:43:55.3034 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:43:55.3196 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:43:55.3196 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3196 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.3196 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3196 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:43:55.3196 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:43:55.3196 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:43:55.3196 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 18:43:55.3196 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 18:43:55.3196 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3196 Info Found 14 configuration items
+2019-10-25 18:43:55.3196 Trace Initializing Layout Renderer: ${message}
+2019-10-25 18:43:55.3349 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:43:55.3349 Trace Initializing Layout Renderer: ${level}
+2019-10-25 18:43:55.3349 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:43:55.3349 Trace FindReachableObject<System.Object>:
+2019-10-25 18:43:55.3349 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:43:55.3349 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3349 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.3349 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 18:43:55.3349 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:43:55.3349 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 18:43:55.3349 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:43:55.3349 Trace FindReachableObject<System.Object>:
+2019-10-25 18:43:55.3511 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:43:55.3511 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3511 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 18:43:55.3511 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3511 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 18:43:55.3511 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 18:43:55.3511 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 18:43:55.3511 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 18:43:55.3511 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3511 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 18:43:55.3511 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3511 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 18:43:55.3511 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:43:55.3511 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 18:43:55.3511 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 18:43:55.3663 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:43:55.3663 Trace FindReachableObject<System.Object>:
+2019-10-25 18:43:55.3663 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:43:55.3663 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 18:43:55.3663 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3663 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 18:43:55.3663 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 18:43:55.3663 Trace Initializing File Target[logfile]
+2019-10-25 18:43:55.3663 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 18:43:55.3663 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 18:43:55.3663 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 18:43:55.3663 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 18:43:55.3821 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 18:43:55.3821 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 18:43:55.3821 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 18:43:55.3821 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 18:43:55.3821 Trace File Target[logfile] has 2 layouts
+2019-10-25 18:43:55.3821 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 18:43:55.3991 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 18:44:15.1925 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:44:15.2008 Debug Trace =>
+2019-10-25 18:44:15.2008 Debug Debug => logfile
+2019-10-25 18:44:15.2008 Debug Info => logfile
+2019-10-25 18:44:15.2008 Debug Warn => logfile
+2019-10-25 18:44:15.2127 Debug Error => logfile
+2019-10-25 18:44:15.2127 Debug Fatal => logfile
+2019-10-25 18:44:15.3157 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 18:44:15.3833 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:44:15.3979 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:15.8485 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:17.6971 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:17.7190 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:25.5777 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:25.5998 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:25.8692 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:26.1149 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:31.2893 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:31.3065 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:31.3244 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:31.3244 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:32.2723 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:32.2723 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:32.2945 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:44:32.2945 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 18:52:30.1729 Info Shutting down logging...
+2019-10-25 18:52:30.1866 Debug Stopping file watching for path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config'
+2019-10-25 18:52:30.1950 Trace Flushing all targets...
+2019-10-25 18:52:30.1950 Trace ForEachItemInParallel() 1 items
+2019-10-25 18:52:30.1950 Trace FileTarget(Name=logfile): FlushAsync
+2019-10-25 18:52:30.2128 Trace Continuation invoked: 
+2019-10-25 18:52:30.2128 Trace Parallel task completed. 0 items remaining
+2019-10-25 18:52:30.2128 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 18:52:30.2128 Debug Trace =>
+2019-10-25 18:52:30.2128 Debug Debug =>
+2019-10-25 18:52:30.2128 Debug Info =>
+2019-10-25 18:52:30.2128 Debug Warn =>
+2019-10-25 18:52:30.2128 Debug Error =>
+2019-10-25 18:52:30.2264 Debug Fatal =>
+2019-10-25 18:52:30.2128 Trace FileTarget(Name=logfile): FlushAsync Done
+2019-10-25 18:52:30.2264 Debug Closing logging configuration...
+2019-10-25 18:52:30.2264 Trace Closing File Target[logfile]
+2019-10-25 18:52:30.2264 Debug Closing target 'File Target[logfile]'.
+2019-10-25 18:52:30.2431 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt, isArchiving: False'
+2019-10-25 18:52:30.2589 Debug FileAppender Closing Invalidate - C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 18:52:30.2589 Debug Closed target 'File Target[logfile]'.
+2019-10-25 18:52:30.2589 Trace Closing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 18:52:30.2589 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:52:30.2589 Trace Closing Layout Renderer: ${shortdate}
+2019-10-25 18:52:30.2589 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:52:30.2733 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 18:52:30.2733 Trace Closing Layout Renderer: ${longdate}
+2019-10-25 18:52:30.2733 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:52:30.2733 Trace Closing Layout Renderer: ${uppercase}
+2019-10-25 18:52:30.2733 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 18:52:30.2733 Trace Closing Layout Renderer: ${level}
+2019-10-25 18:52:30.2733 Trace Closing Layout Renderer: ${literal}
+2019-10-25 18:52:30.2917 Trace Closing Layout Renderer: ${message}
+2019-10-25 18:52:30.2917 Debug Finished closing logging configuration.
+2019-10-25 18:52:30.2917 Info Logger has been shut down.
+2019-10-25 19:13:30.7157 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 19:13:30.9205 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:13:30.9315 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:13:30.9315 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:13:30.9315 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:13:30.9315 Debug Auto loading done
+2019-10-25 19:13:30.9315 Info Message Template Auto Format enabled
+2019-10-25 19:13:30.9617 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:30.9617 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:13:30.9760 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:13:31.0194 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:13:31.0194 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0227 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.0227 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0227 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:13:31.0227 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:13:31.0227 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:13:31.0401 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:13:31.0401 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.0401 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.0401 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0401 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 19:13:31.0401 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0553 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:13:31.0710 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 19:13:31.0710 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:13:31.0710 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0710 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:13:31.0710 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:13:31.0710 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.0867 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:13:31.0867 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:13:31.0867 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:13:31.0867 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.1056 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.1056 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.1056 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:13:31.1181 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:13:31.1181 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:13:31.1391 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:13:31.1391 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.1497 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.1497 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:13:31.1650 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:13:31.1650 Info Adding target File Target[logfile]
+2019-10-25 19:13:31.1918 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 19:13:31.2163 Trace ParseRulesElement
+2019-10-25 19:13:31.2417 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 19:13:31.2417 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 19:13:31.2417 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 19:13:31.2417 Debug --- NLog configuration dump ---
+2019-10-25 19:13:31.2417 Debug Targets:
+2019-10-25 19:13:31.2417 Debug File Target[logfile]
+2019-10-25 19:13:31.2562 Debug Rules:
+2019-10-25 19:13:31.2562 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 19:13:31.2562 Debug --- End of NLog configuration dump ---
+2019-10-25 19:13:31.2562 Trace FindReachableObject<System.Object>:
+2019-10-25 19:13:31.2562 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 19:13:31.2562 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 19:13:31.2562 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:13:31.2562 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:13:31.2562 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:13:31.2562 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.2562 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.2562 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:13:31.2730 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.2730 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:13:31.2730 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:13:31.2730 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.2730 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:13:31.2730 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.2730 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:13:31.2730 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 19:13:31.2730 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:13:31.2730 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:13:31.2730 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.2730 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.2730 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.2730 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:13:31.2730 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:13:31.2730 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:13:31.2897 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 19:13:31.2897 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 19:13:31.2897 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 19:13:31.2897 Info Found 14 configuration items
+2019-10-25 19:13:31.2897 Trace Initializing Layout Renderer: ${message}
+2019-10-25 19:13:31.2897 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:13:31.2897 Trace Initializing Layout Renderer: ${level}
+2019-10-25 19:13:31.2897 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 19:13:31.3055 Trace FindReachableObject<System.Object>:
+2019-10-25 19:13:31.3055 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:13:31.3055 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.3055 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.3055 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 19:13:31.3055 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:13:31.3055 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 19:13:31.3055 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:13:31.3055 Trace FindReachableObject<System.Object>:
+2019-10-25 19:13:31.3200 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:13:31.3200 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.3200 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:13:31.3200 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.3200 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:13:31.3200 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 19:13:31.3200 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:13:31.3200 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:13:31.3200 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.3200 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:13:31.3200 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.3413 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:13:31.3413 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:13:31.3413 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 19:13:31.3512 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:13:31.3512 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:13:31.3512 Trace FindReachableObject<System.Object>:
+2019-10-25 19:13:31.3512 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:13:31.3512 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:13:31.3512 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.3512 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:13:31.3512 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:13:31.3512 Trace Initializing File Target[logfile]
+2019-10-25 19:13:31.3670 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 19:13:31.3670 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:13:31.3670 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:13:31.3670 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:13:31.3670 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:13:31.3670 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:13:31.3670 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:13:31.3670 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:13:31.3670 Trace File Target[logfile] has 2 layouts
+2019-10-25 19:13:31.3818 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 19:13:31.3974 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 19:13:39.3200 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 19:13:39.3546 Debug Trace =>
+2019-10-25 19:13:39.3735 Debug Debug => logfile
+2019-10-25 19:13:39.3895 Debug Info => logfile
+2019-10-25 19:13:39.4000 Debug Warn => logfile
+2019-10-25 19:13:39.4000 Debug Error => logfile
+2019-10-25 19:13:39.4163 Debug Fatal => logfile
+2019-10-25 19:13:39.4887 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 19:13:39.5104 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 19:13:39.5284 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:13:53.3048 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:13:58.7410 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:14:34.2512 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:14:57.5104 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:14:59.6335 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:04.9191 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:10.1613 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:10.3295 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:11.5608 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:11.5817 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:21.8200 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:26.0415 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:36.7914 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:39.4638 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:39.4638 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:15:56.6776 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:16:04.3975 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:16:05.5396 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:16:19.8776 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:16:31.6231 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:19:45.7541 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 19:19:45.9355 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:19:45.9475 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:19:45.9475 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:19:45.9475 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:19:45.9475 Debug Auto loading done
+2019-10-25 19:19:45.9606 Info Message Template Auto Format enabled
+2019-10-25 19:19:45.9926 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:45.9926 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:19:46.0073 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:19:46.0234 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:19:46.0234 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0234 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.0234 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0234 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:19:46.0234 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:19:46.0234 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:19:46.0381 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:19:46.0381 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.0381 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.0381 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0381 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 19:19:46.0381 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0381 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:19:46.0629 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 19:19:46.0629 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:19:46.0629 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0629 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:19:46.0704 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:19:46.0704 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0704 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:19:46.0704 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:19:46.0704 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:19:46.0704 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0704 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.0704 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0704 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:19:46.0704 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:19:46.0704 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:19:46.0852 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:19:46.0852 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.0852 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.0852 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:19:46.0852 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:19:46.0852 Info Adding target File Target[logfile]
+2019-10-25 19:19:46.0852 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 19:19:46.0852 Trace ParseRulesElement
+2019-10-25 19:19:46.1108 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 19:19:46.1265 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 19:19:46.1365 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 19:19:46.1482 Debug --- NLog configuration dump ---
+2019-10-25 19:19:46.1482 Debug Targets:
+2019-10-25 19:19:46.1482 Debug File Target[logfile]
+2019-10-25 19:19:46.1644 Debug Rules:
+2019-10-25 19:19:46.1644 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 19:19:46.1644 Debug --- End of NLog configuration dump ---
+2019-10-25 19:19:46.1801 Trace FindReachableObject<System.Object>:
+2019-10-25 19:19:46.1801 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 19:19:46.1801 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 19:19:46.1801 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:19:46.1954 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:19:46.2211 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:19:46.2673 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.2673 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.2673 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:19:46.2824 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.2824 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:19:46.2950 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:19:46.2950 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.2950 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:19:46.2950 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.3053 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:19:46.3213 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 19:19:46.3213 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:19:46.3213 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:19:46.3348 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.3348 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.3348 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.3348 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:19:46.3348 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:19:46.3563 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:19:46.3563 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 19:19:46.3702 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 19:19:46.3702 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 19:19:46.3702 Info Found 14 configuration items
+2019-10-25 19:19:46.3858 Trace Initializing Layout Renderer: ${message}
+2019-10-25 19:19:46.3858 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:19:46.3858 Trace Initializing Layout Renderer: ${level}
+2019-10-25 19:19:46.3858 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 19:19:46.3987 Trace FindReachableObject<System.Object>:
+2019-10-25 19:19:46.3987 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:19:46.3987 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.3987 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.3987 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 19:19:46.4135 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:19:46.4135 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 19:19:46.4135 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:19:46.4135 Trace FindReachableObject<System.Object>:
+2019-10-25 19:19:46.4135 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:19:46.4135 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.4135 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:19:46.4287 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.4287 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:19:46.4287 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 19:19:46.4287 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:19:46.4287 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:19:46.4287 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.4287 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:19:46.4287 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.4441 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:19:46.4441 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:19:46.4441 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 19:19:46.4441 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:19:46.4602 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:19:46.4602 Trace FindReachableObject<System.Object>:
+2019-10-25 19:19:46.4602 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:19:46.4602 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:19:46.4814 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.4814 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:19:46.4927 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:19:46.4927 Trace Initializing File Target[logfile]
+2019-10-25 19:19:46.4927 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 19:19:46.4927 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:19:46.4927 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:19:46.5076 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:19:46.5076 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:19:46.5076 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:19:46.5076 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:19:46.5076 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:19:46.5076 Trace File Target[logfile] has 2 layouts
+2019-10-25 19:19:46.5076 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 19:19:46.5308 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 19:19:57.5524 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 19:19:57.5538 Debug Trace =>
+2019-10-25 19:19:57.5538 Debug Debug => logfile
+2019-10-25 19:19:57.5538 Debug Info => logfile
+2019-10-25 19:19:57.5538 Debug Warn => logfile
+2019-10-25 19:19:57.5538 Debug Error => logfile
+2019-10-25 19:19:57.5538 Debug Fatal => logfile
+2019-10-25 19:19:57.6032 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 19:19:57.6032 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 19:19:57.6198 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:19:58.9212 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:20:01.2655 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:20:01.3601 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:20:01.4201 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:24:04.4653 Info Shutting down logging...
+2019-10-25 19:24:04.4882 Debug Stopping file watching for path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config'
+2019-10-25 19:24:04.5088 Trace Flushing all targets...
+2019-10-25 19:24:04.5088 Trace ForEachItemInParallel() 1 items
+2019-10-25 19:24:04.5273 Trace FileTarget(Name=logfile): FlushAsync
+2019-10-25 19:24:04.5273 Trace Continuation invoked: 
+2019-10-25 19:24:04.5273 Trace Parallel task completed. 0 items remaining
+2019-10-25 19:24:04.5273 Trace FileTarget(Name=logfile): FlushAsync Done
+2019-10-25 19:24:04.5378 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 19:24:04.5378 Debug Trace =>
+2019-10-25 19:24:04.5378 Debug Debug =>
+2019-10-25 19:24:04.5378 Debug Info =>
+2019-10-25 19:24:04.5378 Debug Warn =>
+2019-10-25 19:24:04.5378 Debug Error =>
+2019-10-25 19:24:04.5378 Debug Fatal =>
+2019-10-25 19:24:04.5378 Debug Closing logging configuration...
+2019-10-25 19:24:04.5378 Trace Closing File Target[logfile]
+2019-10-25 19:24:04.5565 Debug Closing target 'File Target[logfile]'.
+2019-10-25 19:24:04.5565 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt, isArchiving: False'
+2019-10-25 19:24:04.5720 Debug FileAppender Closing Invalidate - C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 19:24:04.5720 Debug Closed target 'File Target[logfile]'.
+2019-10-25 19:24:04.5720 Trace Closing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:24:04.5720 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${shortdate}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:24:04.5858 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${longdate}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${uppercase}
+2019-10-25 19:24:04.5858 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${level}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:24:04.5858 Trace Closing Layout Renderer: ${message}
+2019-10-25 19:24:04.5858 Debug Finished closing logging configuration.
+2019-10-25 19:24:04.6021 Info Logger has been shut down.
+2019-10-25 19:24:15.4948 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-25 19:24:15.5868 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:24:15.5868 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-25 19:24:15.6011 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:24:15.6011 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-25 19:24:15.6011 Debug Auto loading done
+2019-10-25 19:24:15.6011 Info Message Template Auto Format enabled
+2019-10-25 19:24:15.6457 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.6569 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:24:15.6709 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:24:15.6884 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:24:15.6884 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.6884 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.6957 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.6957 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:24:15.6957 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:24:15.6957 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:24:15.7099 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:24:15.7099 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.7099 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.7099 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7099 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-25 19:24:15.7099 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7099 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:24:15.7340 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-25 19:24:15.7340 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:24:15.7340 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7340 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:24:15.7441 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:24:15.7441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7441 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:24:15.7441 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-25 19:24:15.7441 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-25 19:24:15.7441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7441 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.7441 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7441 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:24:15.7576 Trace  Scanning Property Culture '' System.Globalization
+2019-10-25 19:24:15.7576 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:24:15.7576 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:24:15.7576 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.7576 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.7576 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-25 19:24:15.7576 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:24:15.7576 Info Adding target File Target[logfile]
+2019-10-25 19:24:15.7765 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-25 19:24:15.7765 Trace ParseRulesElement
+2019-10-25 19:24:15.8102 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-25 19:24:15.8195 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-25 19:24:15.8195 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-25 19:24:15.8195 Debug --- NLog configuration dump ---
+2019-10-25 19:24:15.8195 Debug Targets:
+2019-10-25 19:24:15.8195 Debug File Target[logfile]
+2019-10-25 19:24:15.8195 Debug Rules:
+2019-10-25 19:24:15.8195 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-25 19:24:15.8357 Debug --- End of NLog configuration dump ---
+2019-10-25 19:24:15.8357 Trace FindReachableObject<System.Object>:
+2019-10-25 19:24:15.8357 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-25 19:24:15.8357 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-25 19:24:15.8357 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:24:15.8357 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:24:15.8357 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:24:15.8357 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.8523 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.8523 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:24:15.8523 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.8523 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:24:15.8523 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:24:15.8523 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.8523 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:24:15.8661 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.8661 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:24:15.8661 Trace     Scanning Property Culture '' System.Globalization
+2019-10-25 19:24:15.8661 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:24:15.8661 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:24:15.8661 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.8661 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.8661 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.8661 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:24:15.8661 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:24:15.8661 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:24:15.8661 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-25 19:24:15.8827 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-25 19:24:15.8827 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-25 19:24:15.8827 Info Found 14 configuration items
+2019-10-25 19:24:15.8827 Trace Initializing Layout Renderer: ${message}
+2019-10-25 19:24:15.8827 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:24:15.9019 Trace Initializing Layout Renderer: ${level}
+2019-10-25 19:24:15.9019 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 19:24:15.9137 Trace FindReachableObject<System.Object>:
+2019-10-25 19:24:15.9137 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:24:15.9137 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.9137 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.9137 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-25 19:24:15.9303 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:24:15.9303 Trace Initializing Layout Renderer: ${longdate}
+2019-10-25 19:24:15.9303 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:24:15.9303 Trace FindReachableObject<System.Object>:
+2019-10-25 19:24:15.9303 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:24:15.9303 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.9303 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-25 19:24:15.9303 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.9303 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-25 19:24:15.9303 Trace   Scanning Property Culture '' System.Globalization
+2019-10-25 19:24:15.9442 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-25 19:24:15.9442 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-25 19:24:15.9442 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.9442 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-25 19:24:15.9442 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.9442 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-25 19:24:15.9442 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:24:15.9602 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-25 19:24:15.9602 Trace Initializing Layout Renderer: ${literal}
+2019-10-25 19:24:15.9602 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:24:15.9602 Trace FindReachableObject<System.Object>:
+2019-10-25 19:24:15.9602 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:24:15.9602 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-25 19:24:15.9602 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.9602 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-25 19:24:15.9772 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-25 19:24:15.9772 Trace Initializing File Target[logfile]
+2019-10-25 19:24:15.9772 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-25 19:24:15.9772 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-25 19:24:15.9772 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-25 19:24:15.9921 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-25 19:24:15.9921 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-25 19:24:15.9921 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-25 19:24:15.9921 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-25 19:24:15.9921 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-25 19:24:15.9921 Trace File Target[logfile] has 2 layouts
+2019-10-25 19:24:15.9921 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-25 19:24:16.0223 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-25 19:24:50.5828 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 19:24:50.5851 Debug Trace =>
+2019-10-25 19:24:50.5851 Debug Debug => logfile
+2019-10-25 19:24:50.5851 Debug Info => logfile
+2019-10-25 19:24:50.5851 Debug Warn => logfile
+2019-10-25 19:24:50.5851 Debug Error => logfile
+2019-10-25 19:24:50.5851 Debug Fatal => logfile
+2019-10-25 19:24:50.6393 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt' on startup
+2019-10-25 19:24:50.6528 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 19:24:50.6528 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:24:50.9380 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:01.4200 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:01.4891 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.1854 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.1854 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.2076 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.3593 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.4457 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.4634 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.4767 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.4767 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.4931 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:05.5083 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:06.2195 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:06.2299 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:06.3074 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:25:06.3232 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt with allowFileSharedWriting=False
+2019-10-25 19:26:17.5223 Info Shutting down logging...
+2019-10-25 19:26:17.5223 Debug Stopping file watching for path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config'
+2019-10-25 19:26:17.5384 Trace Flushing all targets...
+2019-10-25 19:26:17.5384 Trace ForEachItemInParallel() 1 items
+2019-10-25 19:26:17.5384 Trace FileTarget(Name=logfile): FlushAsync
+2019-10-25 19:26:17.5575 Trace Continuation invoked: 
+2019-10-25 19:26:17.5575 Trace Parallel task completed. 0 items remaining
+2019-10-25 19:26:17.5575 Trace FileTarget(Name=logfile): FlushAsync Done
+2019-10-25 19:26:17.5575 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-25 19:26:17.5575 Debug Trace =>
+2019-10-25 19:26:17.5575 Debug Debug =>
+2019-10-25 19:26:17.5703 Debug Info =>
+2019-10-25 19:26:17.5703 Debug Warn =>
+2019-10-25 19:26:17.5703 Debug Error =>
+2019-10-25 19:26:17.5703 Debug Fatal =>
+2019-10-25 19:26:17.5703 Debug Closing logging configuration...
+2019-10-25 19:26:17.5703 Trace Closing File Target[logfile]
+2019-10-25 19:26:17.5703 Debug Closing target 'File Target[logfile]'.
+2019-10-25 19:26:17.5903 Trace FileTarget(Name=logfile): FinalizeFile 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt, isArchiving: False'
+2019-10-25 19:26:17.5903 Debug FileAppender Closing Invalidate - C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-25_logfile.txt
+2019-10-25 19:26:17.5903 Debug Closed target 'File Target[logfile]'.
+2019-10-25 19:26:17.6008 Trace Closing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${shortdate}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:26:17.6008 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${longdate}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${uppercase}
+2019-10-25 19:26:17.6008 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${level}
+2019-10-25 19:26:17.6008 Trace Closing Layout Renderer: ${literal}
+2019-10-25 19:26:17.6171 Trace Closing Layout Renderer: ${message}
+2019-10-25 19:26:17.6171 Debug Finished closing logging configuration.
+2019-10-25 19:26:17.6171 Info Logger has been shut down.
