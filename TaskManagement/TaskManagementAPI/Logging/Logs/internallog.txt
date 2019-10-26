@@ -1101,3 +1101,217 @@
 2019-10-25 19:26:17.6171 Trace Closing Layout Renderer: ${message}
 2019-10-25 19:26:17.6171 Debug Finished closing logging configuration.
 2019-10-25 19:26:17.6171 Info Logger has been shut down.
+2019-10-26 19:06:30.9033 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-10-26 19:06:31.0197 Debug Search for auto loading files, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-26 19:06:31.0285 Debug Start auto loading, location: C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI\bin\Debug\netcoreapp2.2\
+2019-10-26 19:06:31.0285 Trace Assembly 'Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-26 19:06:31.0285 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2019-10-26 19:06:31.0285 Debug Auto loading done
+2019-10-26 19:06:31.0434 Info Message Template Auto Format enabled
+2019-10-26 19:06:31.1162 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.1252 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-26 19:06:31.1330 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-26 19:06:31.1510 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-26 19:06:31.1510 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.1510 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.1510 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.1510 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-26 19:06:31.1510 Trace  Scanning Property Culture '' System.Globalization
+2019-10-26 19:06:31.1657 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-26 19:06:31.1657 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-26 19:06:31.1657 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.1657 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.1657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.1657 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2019-10-26 19:06:31.1657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.1906 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-26 19:06:31.2032 Debug Setting 'FileTarget.name' to 'logfile'
+2019-10-26 19:06:31.2032 Debug Setting 'FileTarget.fileName' to 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-26 19:06:31.2032 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.2032 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-26 19:06:31.2108 Debug Setting 'FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2019-10-26 19:06:31.2108 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.2108 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-26 19:06:31.2108 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-10-26 19:06:31.2108 Trace Wrapping LevelLayoutRenderer with UppercaseLayoutRendererWrapper
+2019-10-26 19:06:31.2108 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.2108 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.2108 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.2108 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-26 19:06:31.2108 Trace  Scanning Property Culture '' System.Globalization
+2019-10-26 19:06:31.2108 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-26 19:06:31.2108 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-26 19:06:31.2108 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.2264 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.2264 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2019-10-26 19:06:31.2264 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-26 19:06:31.2264 Info Adding target File Target[logfile]
+2019-10-26 19:06:31.2264 Debug Registered target logfile: NLog.Targets.FileTarget
+2019-10-26 19:06:31.2264 Trace ParseRulesElement
+2019-10-26 19:06:31.2559 Info Configured from an XML element in C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI/nlog.config...
+2019-10-26 19:06:31.2651 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-10-26 19:06:31.2651 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-10-26 19:06:31.2730 Debug --- NLog configuration dump ---
+2019-10-26 19:06:31.2730 Debug Targets:
+2019-10-26 19:06:31.2730 Debug File Target[logfile]
+2019-10-26 19:06:31.2730 Debug Rules:
+2019-10-26 19:06:31.2730 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2019-10-26 19:06:31.2730 Debug --- End of NLog configuration dump ---
+2019-10-26 19:06:31.2730 Trace FindReachableObject<System.Object>:
+2019-10-26 19:06:31.2730 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2019-10-26 19:06:31.2890 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2019-10-26 19:06:31.2890 Trace  Scanning FileTarget 'File Target[logfile]'
+2019-10-26 19:06:31.2890 Trace   Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-26 19:06:31.2890 Trace   Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-26 19:06:31.2890 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.2890 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.2890 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-26 19:06:31.2890 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.2890 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-26 19:06:31.3156 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-26 19:06:31.3156 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3156 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-26 19:06:31.3215 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.3215 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-26 19:06:31.3215 Trace     Scanning Property Culture '' System.Globalization
+2019-10-26 19:06:31.3215 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-26 19:06:31.3215 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-26 19:06:31.3215 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3215 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.3215 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.3215 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-26 19:06:31.3353 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-26 19:06:31.3353 Trace   Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-26 19:06:31.3353 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2019-10-26 19:06:31.3353 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2019-10-26 19:06:31.3353 Trace  Scanning Property Levels 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LogLevel]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3353 Info Found 14 configuration items
+2019-10-26 19:06:31.3353 Trace Initializing Layout Renderer: ${message}
+2019-10-26 19:06:31.3513 Trace Initializing Layout Renderer: ${literal}
+2019-10-26 19:06:31.3513 Trace Initializing Layout Renderer: ${level}
+2019-10-26 19:06:31.3513 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2019-10-26 19:06:31.3513 Trace FindReachableObject<System.Object>:
+2019-10-26 19:06:31.3513 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-26 19:06:31.3513 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3513 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.3666 Trace Initializing Layout Renderer: ${uppercase}
+2019-10-26 19:06:31.3666 Trace Initializing Layout Renderer: ${literal}
+2019-10-26 19:06:31.3666 Trace Initializing Layout Renderer: ${longdate}
+2019-10-26 19:06:31.3666 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2019-10-26 19:06:31.3666 Trace FindReachableObject<System.Object>:
+2019-10-26 19:06:31.3666 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-26 19:06:31.3666 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3666 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2019-10-26 19:06:31.3666 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.3666 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2019-10-26 19:06:31.3666 Trace   Scanning Property Culture '' System.Globalization
+2019-10-26 19:06:31.3666 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2019-10-26 19:06:31.3815 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2019-10-26 19:06:31.3815 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.3815 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2019-10-26 19:06:31.3815 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.3815 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2019-10-26 19:06:31.3815 Trace Initializing Layout Renderer: ${literal}
+2019-10-26 19:06:31.3815 Trace Initializing Layout Renderer: ${shortdate}
+2019-10-26 19:06:31.4013 Trace Initializing Layout Renderer: ${literal}
+2019-10-26 19:06:31.4013 Trace Initializing 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'
+2019-10-26 19:06:31.4013 Trace FindReachableObject<System.Object>:
+2019-10-26 19:06:31.4160 Trace Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-26 19:06:31.4160 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2019-10-26 19:06:31.4160 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.4303 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2019-10-26 19:06:31.4303 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2019-10-26 19:06:31.4303 Trace Initializing File Target[logfile]
+2019-10-26 19:06:31.4537 Trace FindReachableObject<NLog.Layouts.Layout>:
+2019-10-26 19:06:31.4537 Trace Scanning FileTarget 'File Target[logfile]'
+2019-10-26 19:06:31.4613 Trace  Scanning Property FileName ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt'' NLog.Layouts
+2019-10-26 19:06:31.4774 Trace  Scanning SimpleLayout ''C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/${shortdate}_logfile.txt''
+2019-10-26 19:06:31.4774 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2019-10-26 19:06:31.4774 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2019-10-26 19:06:31.4925 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2019-10-26 19:06:31.5082 Trace  Scanning Property Encoding 'System.Text.UTF8Encoding+UTF8EncodingSealed' System.Text
+2019-10-26 19:06:31.5082 Trace File Target[logfile] has 2 layouts
+2019-10-26 19:06:31.5619 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2019-10-26 19:06:31.6067 Debug Watching path 'C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\TaskManagement\TaskManagementAPI' filter 'nlog.config' for changes.
+2019-10-26 19:07:42.2588 Debug Targets for TaskManagementAPI.Logging.LoggerManager by level:
+2019-10-26 19:07:42.2588 Debug Trace =>
+2019-10-26 19:07:42.2588 Debug Debug => logfile
+2019-10-26 19:07:42.2588 Debug Info => logfile
+2019-10-26 19:07:42.2588 Debug Warn => logfile
+2019-10-26 19:07:42.2588 Debug Error => logfile
+2019-10-26 19:07:42.2588 Debug Fatal => logfile
+2019-10-26 19:07:42.3166 Debug FileTarget(Name=logfile): Process file 'C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt' on startup
+2019-10-26 19:07:42.3296 Debug Creating file appender: C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt
+2019-10-26 19:07:42.3357 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:42.8822 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:43.1585 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:47.1478 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:47.1478 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:47.1897 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:49.0128 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:49.0221 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:49.0221 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:52.8129 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:52.8293 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:52.8474 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:54.9067 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:54.9223 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:54.9223 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:56.6161 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:56.6396 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:56.6396 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:58.8639 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:58.8747 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:07:58.8904 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.0798 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.1116 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.1280 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.8333 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.8454 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:00.8540 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:01.6113 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:01.6194 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:03.8390 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:03.8913 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:13.8154 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:13.8422 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:13.9227 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:13.9401 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:21.7657 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:21.7883 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:21.8642 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:21.8759 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:24.3185 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:24.3283 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:24.3597 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:24.3597 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:33.2197 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:33.4762 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:33.8603 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:33.9157 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:46.9248 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:46.9632 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:46.9632 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:46.9779 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:50.3774 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:50.3844 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:50.4275 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:50.4321 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:55.8976 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:55.9349 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:55.9579 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:56.1321 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:08:56.1321 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:07.0247 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:07.0247 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:07.0596 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:07.0596 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:10.9071 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:10.9469 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:11.0415 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:11.0573 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:11.0573 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:15.7259 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:15.7523 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:15.7717 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
+2019-10-26 19:09:15.8070 Trace Opening C:/Users/Milos Covilo/Desktop/Ja/CodeChallenge/TaskManagement/TaskManagementAPI/Logging/Logs/2019-10-26_logfile.txt with allowFileSharedWriting=False
