@@ -8,7 +8,7 @@
 
 - [cd TaskManagementAPI](https://github.com/CoviloMilos/CodeChallenge/tree/master/TaskManagement/TaskManagementAPI)
 - dotnet run
-- https://localhost:5001/swagger/index.html - Explore endpoint using swagger
+- http://localhost:5000/swagger/index.html - Explore endpoint using swagger
 
 ## Explore
 
