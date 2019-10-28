@@ -77,7 +77,7 @@ namespace TaskManagementAPI.Controllers
 
             if (task != null)
             {
-                return Ok(ResponseFormater("Task returned from database", dtoGetTask, "success"));
+                return Ok(dtoGetTask);
             }
 
             _logger.LogInfo($"Task by id {taskId.ToString()} doesn't exists");
@@ -193,15 +193,7 @@ namespace TaskManagementAPI.Controllers
 
         private object ResponseFormater(string msg, object body, string status)
         {
-            var response = new ResponseFormat()
-            {
-                Message = msg,
-                Endpoint = this.HttpContext.Request.Host + this.HttpContext.Request.Path,
-                Status = status,
-                Body = body
-            };
-
-            return new { response };
+            return new { Message = msg, Status = status, Body = body };
         }
     }
 }
