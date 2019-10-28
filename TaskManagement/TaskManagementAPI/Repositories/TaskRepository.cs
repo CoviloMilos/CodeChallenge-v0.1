@@ -72,8 +72,18 @@ namespace TaskManagementAPI.Repositories
         }
 
         public async System.Threading.Tasks.Task<bool> SaveAll()
-        {
-            return await _context.SaveChangesAsync() > 0;
+        {   
+            var a = true;
+            try
+            {
+              a= await _context.SaveChangesAsync() > 0;   
+            }
+            catch (System.Exception)
+            {
+                
+                throw;
+            }
+            return a;
         }
     }
 }

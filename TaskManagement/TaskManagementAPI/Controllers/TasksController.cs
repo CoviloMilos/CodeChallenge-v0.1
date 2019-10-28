@@ -41,7 +41,6 @@ namespace TaskManagementAPI.Controllers
 
             if (tasks.Any())
             {
-                _logger.LogInfo($"Returning {tasks.Count()} tasks.");
                 return Ok(ResponseFormater("Task returned from database.", tasks, "success"));
             }
 
@@ -59,7 +58,6 @@ namespace TaskManagementAPI.Controllers
 
             if (task != null)
             {
-                _logger.LogInfo($"Returning {task.Name} task.");
                 return Ok(ResponseFormater("Task returned from database.", task, "success"));
             }
 
@@ -79,7 +77,6 @@ namespace TaskManagementAPI.Controllers
 
             if (task != null)
             {
-                _logger.LogInfo($"Returning {dtoGetTask.Name} task.");
                 return Ok(ResponseFormater("Task returned from database", dtoGetTask, "success"));
             }
 
@@ -101,7 +98,6 @@ namespace TaskManagementAPI.Controllers
 
             if (await _taskRepo.SaveAll())
             {
-                _logger.LogInfo("Task created successfully!");
                 return CreatedAtRoute("GetTask", new {taskId = 5}, ResponseFormater("Task created.", dtoCreateTask, "success"));
             }   
 
@@ -118,7 +114,6 @@ namespace TaskManagementAPI.Controllers
 
             if (task == null)  
             {
-                _logger.LogInfo($"Task by id {taskId.ToString()} doesn't exists");
                 return NoContent();
             }
 
@@ -126,7 +121,6 @@ namespace TaskManagementAPI.Controllers
 
             if (await _taskRepo.SaveAll()) 
             {
-                _logger.LogInfo($"Task with id {taskId.ToString()} deleted successfully");
                 return Ok(ResponseFormater("Task deleted successfully.", "", "success"));
             }
 
@@ -142,24 +136,21 @@ namespace TaskManagementAPI.Controllers
 
             if (taskFromRepo == null)
             {
-                _logger.LogInfo($"Task by id {taskId.ToString()} doesn't exists");
                 return NoContent();
             }
             
             if (taskFromRepo.IsProdcution == true)
             {
-                _logger.LogInfo($"Task {taskFromRepo.Name} can't be updated because it's up and running");
                 return BadRequest(ResponseFormater($"Task {taskFromRepo.Name} can't be updated because it's up and running", "", "bad-request"));
             }
 
             _mapper.Map(dtoUpdateTask, taskFromRepo);
-
+        
             if (await _taskRepo.SaveAll())
             {
-                _logger.LogInfo($"Task {taskFromRepo.Name} updated successfully");
                 return Ok(ResponseFormater($"Task {taskFromRepo.Name} updated successfully", "", "success"));
             }
-            
+
             _logger.LogError($"Updating task {taskId} failed on save");
             throw new Exception($"Updating task {taskId} failed on save");
         }
@@ -173,13 +164,11 @@ namespace TaskManagementAPI.Controllers
 
             if (taskFromRepo == null)
             {
-                _logger.LogInfo($"Task with TaskGuid={taskGuid.ToString()} doesn't exists");
                 return NoContent();
             }
             
             if (taskFromRepo.IsProdcution == true)
             {
-                _logger.LogInfo($"Case {caseNum} can't be updated because it's up and running");
                 return BadRequest(ResponseFormater($"Case {caseNum} can't be updated because it's up and running", "","bad-request"));
             }
 
@@ -187,7 +176,6 @@ namespace TaskManagementAPI.Controllers
 
             if (caseFromRepo == null)
             {
-                _logger.LogInfo($"Case with TaskGuid={taskGuid.ToString()} doesn't exists");
                 return NoContent();
             }
             
@@ -196,7 +184,6 @@ namespace TaskManagementAPI.Controllers
 
             if (await _taskRepo.SaveAll())
             {
-                _logger.LogInfo($"Case updated successfully");
                 return Ok(ResponseFormater($"Case updated successfully", "", "success"));
             }
 

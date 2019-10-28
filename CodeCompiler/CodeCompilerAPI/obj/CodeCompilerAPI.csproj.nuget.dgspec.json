@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj": {}
+    "C:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj": {
+    "C:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj",
         "projectName": "CodeCompilerAPI",
-        "projectPath": "c:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj",
+        "projectPath": "C:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\CodeCompilerAPI.csproj",
         "packagesPath": "C:\\Users\\Milos Covilo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\obj\\",
+        "outputPath": "C:\\Users\\Milos Covilo\\Desktop\\Ja\\CodeChallenge\\CodeCompiler\\CodeCompilerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

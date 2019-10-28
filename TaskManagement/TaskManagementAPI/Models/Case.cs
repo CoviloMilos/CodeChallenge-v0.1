@@ -22,5 +22,6 @@ namespace TaskManagementAPI.Models
         public string ValidReturnValue { get; set; }
         [Required]
         public bool SecretTest { get; set; }
+
     }
 }

@@ -113,3 +113,23 @@ ProblemSystem.Exception: Updating case 1 failed on save
 2019-10-26 19:09:15.7523 INFO Fetching Task with TaskGuid=98dc27f7-b0d6-4e0a-b994-42d8cc35e80d and Case with CaseNum=2 from the database.
 2019-10-26 19:09:15.7717 INFO Case updated successfully
 2019-10-26 19:09:15.8070 INFO [RESPONSE INFO] Time: 10/26/2019 7:09:15 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:34:26.1631 INFO [REQUEST INFO] Time: 10/26/2019 8:34:26 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/tasks?prod=true
+2019-10-26 20:34:26.6167 INFO Fetching all the Tasks from the database.
+2019-10-26 20:34:27.3387 INFO Returning 10 tasks.
+2019-10-26 20:34:27.3387 INFO [RESPONSE INFO] Time: 10/26/2019 8:34:27 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:37:58.4119 INFO [REQUEST INFO] Time: 10/26/2019 8:37:58 PM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks?prod=true
+2019-10-26 20:37:58.4493 INFO [RESPONSE INFO] Time: 10/26/2019 8:37:58 PM Status code: 307 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:37:58.4918 INFO [REQUEST INFO] Time: 10/26/2019 8:37:58 PM Method: GET Scheme: https CotentType:  Target: localhost:5000/api/tasks?prod=true
+2019-10-26 20:37:58.4918 INFO Fetching all the Tasks from the database.
+2019-10-26 20:37:58.5447 INFO Returning 10 tasks.
+2019-10-26 20:37:58.5447 INFO [RESPONSE INFO] Time: 10/26/2019 8:37:58 PM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:39:21.8751 INFO [REQUEST INFO] Time: 10/26/2019 8:39:21 PM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/task/compile/2
+2019-10-26 20:39:21.9034 INFO [RESPONSE INFO] Time: 10/26/2019 8:39:21 PM Status code: 307 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:44:39.6756 INFO [REQUEST INFO] Time: 10/26/2019 8:44:39 PM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/task/compile/2
+2019-10-26 20:44:39.7683 INFO [RESPONSE INFO] Time: 10/26/2019 8:44:39 PM Status code: 307 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:46:19.1028 INFO [REQUEST INFO] Time: 10/26/2019 8:46:19 PM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/task/compile/2
+2019-10-26 20:46:19.3158 INFO [RESPONSE INFO] Time: 10/26/2019 8:46:19 PM Status code: 307 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:51:40.2247 INFO [REQUEST INFO] Time: 10/26/2019 8:51:40 PM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/task/compile/2
+2019-10-26 20:51:40.2835 INFO [RESPONSE INFO] Time: 10/26/2019 8:51:40 PM Status code: 307 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-26 20:51:40.4578 INFO [REQUEST INFO] Time: 10/26/2019 8:51:40 PM Method: GET Scheme: https CotentType:  Target: localhost:5001/api/task/compile/2
+2019-10-26 20:51:40.6689 INFO [RESPONSE INFO] Time: 10/26/2019 8:51:40 PM Status code: 404 ContentType:  HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext

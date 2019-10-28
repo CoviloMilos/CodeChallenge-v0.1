@@ -37,5 +37,6 @@ namespace TaskManagementAPI.Models
             TaskGuid = Guid.NewGuid();
             Cases = new Collection<Case>();
         }
+
     }
 }
