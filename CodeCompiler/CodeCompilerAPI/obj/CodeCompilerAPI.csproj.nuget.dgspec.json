@@ -62,6 +62,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            },
             "System.Runtime.Loader": {
               "target": "Package",
               "version": "[4.3.0, )"

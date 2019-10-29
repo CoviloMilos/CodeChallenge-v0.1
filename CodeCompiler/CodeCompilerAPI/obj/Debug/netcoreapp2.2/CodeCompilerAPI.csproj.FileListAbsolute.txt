@@ -1,0 +1,14 @@
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\bin\Debug\netcoreapp2.2\CodeCompilerAPI.deps.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\bin\Debug\netcoreapp2.2\CodeCompilerAPI.runtimeconfig.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\bin\Debug\netcoreapp2.2\CodeCompilerAPI.runtimeconfig.dev.json
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\bin\Debug\netcoreapp2.2\CodeCompilerAPI.dll
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\bin\Debug\netcoreapp2.2\CodeCompilerAPI.pdb
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.csprojAssemblyReference.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.csproj.CoreCompileInputs.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.RazorAssemblyInfo.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.RazorAssemblyInfo.cs
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.AssemblyInfoInputs.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.AssemblyInfo.cs
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.dll
+C:\Users\Milos Covilo\Desktop\Ja\CodeChallenge\CodeCompiler\CodeCompilerAPI\obj\Debug\netcoreapp2.2\CodeCompilerAPI.pdb
