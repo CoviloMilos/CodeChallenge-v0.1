@@ -1,0 +1,30 @@
+2019-10-29 00:07:02.1074 INFO [REQUEST INFO] Time: 10/29/2019 12:07:02 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:07:02.2769 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:07:02.7008 INFO [RESPONSE INFO] Time: 10/29/2019 12:07:02 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:07:29.8620 INFO [REQUEST INFO] Time: 10/29/2019 12:07:29 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:07:30.2656 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:07:32.5589 INFO [RESPONSE INFO] Time: 10/29/2019 12:07:32 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:09:43.3261 INFO [REQUEST INFO] Time: 10/29/2019 12:09:43 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:09:43.9808 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:09:46.5018 INFO [RESPONSE INFO] Time: 10/29/2019 12:09:46 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:09:53.4247 INFO [REQUEST INFO] Time: 10/29/2019 12:09:53 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/2
+2019-10-29 00:09:53.4477 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:09:53.4959 INFO [RESPONSE INFO] Time: 10/29/2019 12:09:53 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:12:26.9660 INFO [REQUEST INFO] Time: 10/29/2019 12:12:26 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/
+2019-10-29 00:12:27.0991 INFO Query parameter prod isn't specified.
+2019-10-29 00:12:27.1180 INFO [RESPONSE INFO] Time: 10/29/2019 12:12:27 AM Status code: 400 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:12:42.9481 INFO [REQUEST INFO] Time: 10/29/2019 12:12:42 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:12:42.9616 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:12:43.0702 INFO [RESPONSE INFO] Time: 10/29/2019 12:12:43 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:15:58.7473 INFO [REQUEST INFO] Time: 10/29/2019 12:15:58 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:15:58.7686 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:15:58.8106 INFO [RESPONSE INFO] Time: 10/29/2019 12:15:58 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:17:31.1706 INFO [REQUEST INFO] Time: 10/29/2019 12:17:31 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:17:31.1706 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:17:31.1966 INFO [RESPONSE INFO] Time: 10/29/2019 12:17:31 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:18:38.6074 INFO [REQUEST INFO] Time: 10/29/2019 12:18:38 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:18:38.6219 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:18:38.6530 INFO [RESPONSE INFO] Time: 10/29/2019 12:18:38 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext
+2019-10-29 00:21:19.3506 INFO [REQUEST INFO] Time: 10/29/2019 12:21:19 AM Method: GET Scheme: http CotentType:  Target: localhost:5000/api/tasks/compile/2
+2019-10-29 00:21:19.3712 INFO Fetching Task with id=2 from the database.
+2019-10-29 00:21:19.4097 INFO [RESPONSE INFO] Time: 10/29/2019 12:21:19 AM Status code: 200 ContentType: application/json; charset=utf-8 HttpContext: Microsoft.AspNetCore.Http.DefaultHttpContext

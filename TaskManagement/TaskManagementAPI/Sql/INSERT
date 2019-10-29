@@ -1,0 +1,60 @@
+INSERT INTO public."Tasks"("TaskGuid", "TaskNum", "Name", "Description", "Explanation", "ReturnDataType", "MethodName", "IsProdcution", "FirstInputParameterDataType", "SecondInputParameterDataType")
+VALUES 
+('6923a826-ae4a-4989-99b5-0349bb882e14',nextval('seq_task_tasknum'),'True or False','Check if the forwarded number is even.','For input 4 your solution should return true.','bool','checkNum', true, 'int', null),
+('a664755a-5b51-4236-8b68-c2799327f584',nextval('seq_task_tasknum'),'Less Than Greather Than','Check if the forwarded number is in range between 50-90.','For input 99 in range [50,90] your solution should return true.','bool','lessTgreatherT', true, 'int', null),
+('09abf260-ec47-4851-bb41-07cc05291a2b',nextval('seq_task_tasknum'),'Sort an Array','For given array write code which will sort it.','For input {1,2,8,4,8,3,1,1} your solution should return {1,1,1,2,4,8,8}','array','sortArray', true, 'array', null),
+('2e8ed97b-61ee-4a6e-9ef6-412b205a991d',nextval('seq_task_tasknum'),'Reverse Array','For given array write code which will reverse it.','For input {1,2,3,4,5} your solution should return {5,4,3,2,1}','array','reverseArray', true, 'array', null)
+
+
+
+
+
+INSERT INTO public."Cases"( "CaseNum", "FirstInputParameter", "SecondInputParameter","ValidReturnValue", "SecretTest", "TaskGuid")
+VALUES 
+(nextval('seq_case_casenum'), 5, null,'false', 'false','6923a826-ae4a-4989-99b5-0349bb882e14'),
+(nextval('seq_case_casenum'), 4, null,'true', 'false','6923a826-ae4a-4989-99b5-0349bb882e14'),
+(nextval('seq_case_casenum'), 24, null,'true', 'false','6923a826-ae4a-4989-99b5-0349bb882e14'),
+(nextval('seq_case_casenum'), 17, null,'false', 'false','6923a826-ae4a-4989-99b5-0349bb882e14'),
+(nextval('seq_case_casenum'), 777, null,'false', 'true','6923a826-ae4a-4989-99b5-0349bb882e14'),
+(nextval('seq_case_casenum'), 888, null,'true', 'true','6923a826-ae4a-4989-99b5-0349bb882e14')
+
+
+
+
+
+
+INSERT INTO public."Cases"("CaseNum", "FirstInputParameter", "SecondInputParameter","ValidReturnValue", "SecretTest", "TaskGuid")
+VALUES 
+(nextval('seq_case_casenum'),'90',null, 'true', 'false', 'a664755a-5b51-4236-8b68-c2799327f584'),
+(nextval('seq_case_casenum'),'55', null, 'true', 'false', 'a664755a-5b51-4236-8b68-c2799327f584'),
+(nextval('seq_case_casenum'),'123', null, 'false', 'false', 'a664755a-5b51-4236-8b68-c2799327f584'),
+(nextval('seq_case_casenum'),'150', null, 'false', 'false', 'a664755a-5b51-4236-8b68-c2799327f584'),
+(nextval('seq_case_casenum'),'200', null,'false', 'true', 'a664755a-5b51-4236-8b68-c2799327f584'),
+(nextval('seq_case_casenum'),'65', null,'true', 'true', 'a664755a-5b51-4236-8b68-c2799327f584')
+
+
+
+
+
+
+INSERT INTO public."Cases"("CaseNum", "FirstInputParameter", "SecondInputParameter","ValidReturnValue", "SecretTest", "TaskGuid")
+VALUES 
+(nextval('seq_case_casenum'),'1,5,6,81,2,8,1', null, '1,1,2,5,6,8,81', 'false','09abf260-ec47-4851-bb41-07cc05291a2b'),
+(nextval('seq_case_casenum'),'999,555,444,111,444,888', null, '111,444,444,555,888,999', 'false','09abf260-ec47-4851-bb41-07cc05291a2b'),
+(nextval('seq_case_casenum'),'1', null, '1', 'false','09abf260-ec47-4851-bb41-07cc05291a2b'),
+(nextval('seq_case_casenum'),'3,1', null, '1,3', 'false','09abf260-ec47-4851-bb41-07cc05291a2b'),
+(nextval('seq_case_casenum'),'1,2,3,4,5,6', null,'1,2,3,4,5,6', 'true','09abf260-ec47-4851-bb41-07cc05291a2b'),
+(nextval('seq_case_casenum'),'5,4,3,2,1,1', null,'1,1,2,3,4,5', 'true','09abf260-ec47-4851-bb41-07cc05291a2b')
+
+
+
+
+
+INSERT INTO public."Cases"("CaseNum", "FirstInputParameter", "SecondInputParameter","ValidReturnValue", "SecretTest", "TaskGuid")
+VALUES 
+(nextval('seq_case_casenum'),'1,5,6,81,2,8,1', null, '1,8,2,81,6,5,1', 'false','2e8ed97b-61ee-4a6e-9ef6-412b205a991d'),
+(nextval('seq_case_casenum'),'999,555,444,111,444,888', null, '888,444,111,444,555,999', 'false','2e8ed97b-61ee-4a6e-9ef6-412b205a991d'),
+(nextval('seq_case_casenum'),'1', null, '1', 'false','2e8ed97b-61ee-4a6e-9ef6-412b205a991d'),
+(nextval('seq_case_casenum'),'3,1', null, '1,3', 'false','2e8ed97b-61ee-4a6e-9ef6-412b205a991d'),
+(nextval('seq_case_casenum'),'1,2,3,4,5,6', null,'6,5,4,3,2,1', 'true','2e8ed97b-61ee-4a6e-9ef6-412b205a991d'),
+(nextval('seq_case_casenum'),'5,4,3,2,1,1', null,'1,1,2,3,4,5', 'true','2e8ed97b-61ee-4a6e-9ef6-412b205a991d')
